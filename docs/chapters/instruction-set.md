@@ -97,9 +97,6 @@ jump to address `m` (set the value of the `PC` register to the address `m` -
 restore the previous value and thus jump back to the parent routine at the
 place you left off (`PC <- (L)`).
 
-**TODO: Check if PC is incremented before it is stored in JSUB, since we want**
-**to go to the next command, not the same one**
-
 ### Input and Output
 
 SIC supports writing to and reading from external devices (usually text files
